@@ -2,19 +2,19 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-var array = [1, 7, 60, 78, 125, 205];
+var myArray = [ 1, true, 'casa', null, undefined, '0' ];
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
-function myFunction( array ) {
-    return array;
-};
+// function myFunction( myArray ) {
+//     return myArray;
+// };
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
-// ?
+console.log( myArray );
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
