@@ -28,10 +28,10 @@ function adicionaValor() {
 }
 
 // Invoque a função criada acima.
-adicionaValor
+adicionaValor();
 
 // Qual o retorno da função? (Use comentários de bloco).
-/*O valor da variável agora é 20*/
+// O valor da variável agora é
 
 /*
 Crie uma função com as seguintes características:
