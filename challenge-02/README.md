@@ -69,17 +69,17 @@ Crie uma função com as seguintes características:
 5. Se nenhum argumento for passado, retorne o valor booleano `false`.
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
-function threeArgs(x, y, z) {
-    if(x !== undefined && y === undefined && z === undefined) {
+function threeArgs( x, y, z ) {
+    if( x !== undefined && y === undefined && z === undefined ) {
         return x;
-    } 
-    else if (x !== undefined && y !== undefined && z === undefined) {
+    }
+    else if ( x !== undefined && y !== undefined && z === undefined ) {
         return x + y;
     }
-    else if(x !== undefined && y !== undefined && z !== undefined) {
-        return (x + y) / z;
+    else if( x !== undefined && y !== undefined && z !== undefined ) {
+        return ( x + y ) / z;
     }
-    else if(x === undefined && y === undefined && z === undefined) {
+    else if( x === undefined && y === undefined && z === undefined ) {
         return false;
     }
     else {
