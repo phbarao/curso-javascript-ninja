@@ -46,7 +46,7 @@ valor dessa propriedade a quantidade passada por parâmetro;
 - Ele deverá modificar o valor da propriedade `andando` para o valor
 booleano que representa "verdadeiro";
 */
-pessoa.andar = function(m) {
+pessoa.andar = function( m ) {
     pessoa.caminhouQuantosMetros += m;
     pessoa.andando = true;    
 };
@@ -200,5 +200,5 @@ pessoa.apresentacao = function() {
 }
 
 // Agora, apresente-se ;)
-pessoa.apresentaao(); // 'Olá, eu sou o Pedro Nunes, tenho 34 anos, 1.76, meu peso é 64 e, só hoje, eu já caminhei 1300 metros!'
+pessoa.apresentacao(); // 'Olá, eu sou o Pedro Nunes, tenho 34 anos, 1.76, meu peso é 64 e, só hoje, eu já caminhei 1300 metros!'
 ```
