@@ -95,7 +95,7 @@ Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
-console.log( 'O auto do livro ' + bookName + ' é ' + book( bookName ).autor + '.' );
+console.log( 'O autor do livro ' + bookName + ' é ' + book( bookName ).autor + '.' );
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
